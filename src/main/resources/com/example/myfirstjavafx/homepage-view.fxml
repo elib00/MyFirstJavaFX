@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="home" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myfirstjavafx.AppController">
+   <children>
+      <GridPane fx:id="pnHomePage" alignment="center" hgap="10" prefHeight="400.0" prefWidth="600.0" vgap="10">
+         <ColorPicker fx:id="cpicker" />
+          <HBox alignment="bottom_right" spacing="10" GridPane.columnIndex="1" GridPane.rowIndex="4">
+              <Button  fx:id="btnLogOut" onAction="#onLogOut" text="Log Out" styleClass="btn"/>
+          </HBox>
+         <columnConstraints>
+            <ColumnConstraints />
+            <ColumnConstraints />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+         </rowConstraints>
+      </GridPane>
+   </children>
+</AnchorPane>
